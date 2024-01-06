@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>listPringInEcommerce</title>
+</head>
+<body>
+    <form>
+        <label for="productName">Product Name:</label>
+        <input type="text" name="productName" id="productName">
+        <label for="productPrice">Product Price:</label>
+        <input type="number" name="productPrice" id="productPrice">
+        <input type="button" id="submit" value="Add to cart">
+        <ul id="container">
+        </ul>
+        <h3>Total cost of products added to cart:INR <span id="amount"></span></h6>
+    </form>
+    <script src="app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.3/axios.min.js"></script>
+</body>
+</html>
